@@ -1,0 +1,32 @@
+
+.aside {
+  width: 200px;
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.aside-nav{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ height: 70%;
+}
+.aside-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  display: block;
+}
+
+.logout {
+  background: #e74c3c;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
